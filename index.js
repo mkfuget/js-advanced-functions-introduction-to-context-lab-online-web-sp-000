@@ -6,7 +6,7 @@ function createEmployeeRecord(array)
     lastName: array[1],
     title: array[2],
     payPerHour: array[3],
-    timeInEvents: []
+    timeInEvents: [],
     timeOutEvents: []
     
   }

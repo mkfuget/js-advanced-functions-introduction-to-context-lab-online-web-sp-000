@@ -13,5 +13,5 @@ function createEmployeeRecord(array)
 }
 function createEmployeeRecords(array)
 {
-  return array.map(record => {createEmployeeRecord(record)})
+  return array.map(record => createEmployeeRecord(record))
 }

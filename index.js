@@ -15,3 +15,10 @@ function createEmployeeRecords(array)
 {
   return array.map(record => createEmployeeRecord(record))
 }
+
+function createTimeInEvent(employeeRecord, date)
+{
+  employeeRecord.timeInEvents.push({
+
+  })
+}

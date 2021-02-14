@@ -48,5 +48,5 @@ function wagesEarnedOnDate(employeeRecord, date)
 }
 function allWagesFor(employeeRecord)
 {
-  return employeeRecord.timeInEvents.map(n => n.date).reduce((element, total) => wagesEarnedOnDate(element) + total, 0)
+  return employeeRecord.timeInEvents.map(n => {n.date).reduce((date, total) => wagesEarnedOnDate(employeeRecord, date) + total, 0)
 }

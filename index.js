@@ -46,3 +46,7 @@ function wagesEarnedOnDate(employeeRecord, date)
 {
   return hoursWorkedOnDate(employeeRecord, date)*employeeRecord.payPerHour
 }
+function allWagesFor(employeeRecord)
+{
+  return employeeRecord.reduce((element, total) => element + total, 0)
+}

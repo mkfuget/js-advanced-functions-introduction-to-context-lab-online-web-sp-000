@@ -11,3 +11,7 @@ function createEmployeeRecord(array)
 
   }
 }
+createEmployeeRecords(array)
+{
+  return array.map(record => {createEmployeeRecord(record)})
+}

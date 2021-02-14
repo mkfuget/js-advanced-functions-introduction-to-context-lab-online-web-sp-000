@@ -23,4 +23,5 @@ function createTimeInEvent(employeeRecord, date)
     hour: date.substring(11,12),
     date: date.substring(0, 9)
   })
+  return employeeRecord
 }

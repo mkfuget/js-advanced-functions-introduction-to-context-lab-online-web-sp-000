@@ -52,5 +52,5 @@ function allWagesFor(employeeRecord)
 }
 function calculatePayroll(employeeRecords)
 {
-  employeeRecords.reduce((total, employee) =>allWagesFor(employee) + total, 0)
+  return employeeRecords.reduce((total, employee) =>allWagesFor(employee) + total, 0)
 }

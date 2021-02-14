@@ -40,5 +40,5 @@ function hoursWorkedOnDate(employeeRecord, date)
   let timeIn = employeeRecord.timeInEvents.find(x => x.date === date).hour
   let timeOut = employeeRecord.timeOutEvents.find(x => x.date === date).hour
 
-  return timeOut - timeIn
+  return (timeOut - timeIn)/100
 }
